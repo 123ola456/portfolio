@@ -1,0 +1,203 @@
+.btn {
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+  }
+
+  .btn:hover {
+    color: #DEAC80;
+    border: 2px solid white;
+    animation: shine 1s ease-out forwards;
+  }
+
+  @keyframes shine {
+    0% {
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+      transform: scale(1);
+    }
+    50% {
+      box-shadow: 0 0 40px rgba(255, 255, 255, 0.6), 0 0 80px rgba(255, 255, 255, 0.5), 0 0 120px rgba(255, 255, 255, 0.4);
+      transform: scale(1.1);
+    }
+    100% {
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+      transform: scale(1);
+    }
+  }
+
+  .nav-link:hover {
+    text-decoration: underline;
+    color: #DEAC80 !important;
+  }
+
+  .navbar-brand:hover {
+    color: #DEAC80 !important;
+  }
+  body{
+    background-color: #B5828C;
+  }
+  .title{
+    font-size: 7vw;
+    color: white;
+    font-weight: bolder;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-family: lobster;
+
+  }
+  .title2{
+    color: white;
+    font-family:lobster;
+    margin-left: 50px;
+    font-size: 2vw;
+  }
+  .title2 span{
+    font-weight: 600;
+    color: #DEAC80;
+  }
+  .text{
+    font-family:  Edu Australia VIC WA NT Hand;
+    color: white;
+    margin-left: 50px;
+    font-size: 1.5vw;
+  }
+  .section{
+    margin-left: 50px;
+    margin-top: 50px;
+  
+
+  }
+  .section1>div{
+    margin-top: 20px;
+    padding: 10px;
+   
+  }
+  .title3{
+    color: #B5828C;
+    font-family: lobster;
+    border: 2px solid white;
+    border-radius: 70px;
+    background-color: white;
+  display: inline-block;
+padding: 5px;
+
+  }
+  .web{
+    display: flex;
+  }
+ .web img{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 90%;
+  display: inline-block; 
+  width: 20%;
+  height: 20%;
+  object-fit: cover;
+
+ }
+ .p2 {
+    color: white;
+    font-family:  Edu Australia VIC WA NT Hand;
+    margin-top:15px;
+    margin-left: 10px;
+    white-space: pre;
+ }
+ .Designs  {
+   display: flex;
+ }
+ .img1{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 90%;
+  display: inline-block; 
+  width: 20%;
+  height: 20%;
+  object-fit: cover;
+ }
+.p3 {
+    color: white;
+    font-family:  Edu Australia VIC WA NT Hand;
+    margin-top: 25px;
+    margin-left: 10px; 
+    white-space: pre;
+}
+.Booking{
+    display: flex;
+}
+.p4{
+    color: white;
+    font-family:  Edu Australia VIC WA NT Hand;
+    margin-top: 10px;
+    margin-left: 10px; 
+    white-space: pre;
+} 
+
+ .img2{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 90%;
+  display: inline-block; 
+  width: 20%;
+  height: 20%;
+  object-fit: cover;
+ }
+ .web h3{
+    color: #B5828C;
+    font-family: lobster;
+    border: 2px solid white;
+    border-radius: 999px;
+    background-color: white;
+  display: inline-block; 
+ }
+ .doskills{
+    display: flex;
+ }
+ .skills{
+    margin-top: 60px;
+    margin-right: -700px;
+
+ }
+ .skills>div{
+    margin-bottom: 120px;
+ }
+ .skills h3{
+    color: #B5828C;
+    font-family: lobster;
+    border: 2px solid white;
+    border-radius: 70px;
+    background-color: white;
+  display: inline-block;
+padding: 5px;
+ }
+
+ .images1 img{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 90%;
+  display: inline-block; 
+  width: 15%;
+  height: 15%;
+  object-fit: cover; 
+ }
+ .images2 img{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 90%;
+  display: inline-block; 
+  width: 15%;
+  height: 15%;
+  object-fit: cover;
+ }
+  @media(max-width:768){
+    title{
+        margin-left: 50px;
+    }
+  }
+  @media(max-width:420){
+    title{
+    margin-left: 30px;
+    }
+  }
